@@ -1,1 +1,1 @@
-body{background-color:green}
+@font-face{font-family:Cleanvertising-l;src:url(../fonts/CLEANVEL.TTF)}body{font-size:36px;min-width:320px;position:relative;line-height:1.6;font-family:Cleanvertising-l;overflow-x:hidden}.hidden{display:none}.cover{background-image:url(../img/header-image.jpg);height:660px}.color-cover{background-color:#2b5077;opacity:.5;height:660px}

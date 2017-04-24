@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -11,8 +11,11 @@
 	
 	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon"> 
 	
-	<!-- Bootstrap v3.3.4 Grid Styles -->
-    
+	<!-- Normalize CSS-->
+	<link rel="stylesheet" href="libs/normalize-css/normalize.css">
+
+	<!--UIKIT framework-->
+	<link rel="stylesheet" href="libs/uikit-3.0.0/css/uikit.css">
 
 	<!-- Header CSS (First Sections of Website: paste after release from header.min.css here) -->
 	<style></style>
@@ -22,12 +25,45 @@
 </head>
 <body>
 	
-	<header>asdassdfsdfsdfsdf</header>
+	<header>
+		
+	</header>
+	
+	<div class="uk-child-width-expand@s uk-light" uk-grid>
+		<div>
+			<div class="cover uk-background-cover">
+				<div class="color-cover uk-background-cover">
+                    <div class="uk-navbar-right">
+                        <h1 class="logo uk-heading-primary">Ihor Kurnytskyi</h1>
+                        <ul class="navigation uk-navbar-nav uk-position-top-right">
+                            <li class="uk-active"><a href="#">Podcast</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contscts</a></li>
+                        </ul>
+                    </div>
+                    <div class="main_text  uk-position-center">
+                       <div class="main_text_block">
+                            <h1 class="uk-heading-primary uk-text-center">Online Marketing Dude and International Speaker</h1>
+                            <p class="uk-text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati vitae veniam, quo possimus soluta tempora amet. In accusamus iste labore quod, nam aliquid, quam quasi.</p>
+                            
+                            <div class="head_form">
+                                <input class="inputs uk-input uk-form-width-medium" type="text" placeholder="Your email">
+                                <button class="buttons uk-button uk-button-primary">Signup</button>
+                            </div>
+                       </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<footer></footer>
 	
 	<!--JQuery lib-->
-	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/jquery/dist/jquery.js"></script>
+	<!--UIKIT lib-->
+	<script src="libs/uikit-3.0.0/js/uikit.js"></script>
+	<script src="libs/uikit-3.0.0/js/uikit-icons.min.js"></script>
 	<!--Main JavaScript-->
 	<script src="js/common.js"></script>
 </body>
