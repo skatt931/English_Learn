@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Cleanvertising-b';
+  /* Имя шрифта */
+  src: url(../fonts/CLEANVEB.TTF);
+  /* Путь к файлу со шрифтом */ }
+
+@font-face {
+  font-family: 'Cleanvertising-l';
+  /* Имя шрифта */
+  src: url(../fonts/CLEANVEL.TTF);
+  /* Путь к файлу со шрифтом */ }
+
+body {
+  font-size: 36px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  font-family: 'Cleanvertising-l';
+  overflow-x: hidden; }
+
+.hidden {
+  display: none; }

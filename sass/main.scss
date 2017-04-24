@@ -1,0 +1,20 @@
+@import 'fonts';
+@import 'variables';
+@import 'mixins';
+
+body {
+	font-size: 36px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: 'Cleanvertising-l';
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+
+
+
+//ALWAYS END
+@import 'media';

@@ -1,0 +1,26 @@
+{
+  "name": "intersono",
+  "version": "1.0.0",
+  "description": "site",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "skatt931"
+  },
+  "keywords": [
+    "adaptive"
+  ],
+  "author": "Ihor Kurnytskyi",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.0.6",
+    "gulp-sass": "^2.3.2"
+  }
+}
