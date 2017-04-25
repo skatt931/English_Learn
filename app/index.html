@@ -39,7 +39,7 @@
                         <ul class="navigation uk-navbar-nav uk-position-top-right">
                             <li class="uk-active"><a href="#">Podcast</a></li>
                             <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contscts</a></li>
+                            <li><a href="#">Contacts</a></li>
                         </ul>
                     </div>
                     <div class="main_text  uk-position-center">
@@ -81,69 +81,144 @@
 	<!--END About me block-->
 	
 	<!--Blog block-->
-	<div class="blog">
-	    <div class="container uk-card uk-card-body " uk-grid>
-	        <h2 class="uk-text-capitalize">From my blog</h2><a href="#">See all</a>
-	    </div>
-	    <div class="container uk-card uk-card-body" uk-grid>
-	    <div class="uk-child-width-1-2@m" uk-grid>
-    <div>
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src="img/study1.jpg" alt="">
+	    <div class="blog">
+            <div class="stripes">
+                <img src="img/stripes.png" alt="">
             </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Top</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a href="#">Read More</a>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Bottom</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a href="#">Read More</a>
-            </div>
-             <div class="uk-card-media-bottom">
-                <img src="img/study2.jpg" alt="">
-            </div>
-        </div>
-    </div>
-        <div>
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-media-top">
-                <img src="img/study3.jpg" alt="">
-            </div>
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Top</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a href="#">Read More</a>
-            </div>
-        </div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-default">
-            <div class="uk-card-body">
-                <h3 class="uk-card-title">Media Top</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                <a href="#">Read More</a>
-            </div>
-            <div class="uk-card-media-bottom">
-                <img src="img/study4.jpg" alt="">
-            </div>
-        </div>
-    </div>
+                <div class="container uk-card uk-card-body " uk-grid>
+                    <h2 class="uk-text-capitalize">From my blog</h2><a href="#" >See all</a>
+                </div>
+                <div class="container uk-card uk-card-body" uk-grid>
+                <div class="uk-child-width-1-2@m" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="img/study1.jpg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Top</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <a href="#modal-full1" uk-toggle>Read More</a>
+                    </div>
+                </div>
 
-</div>
+                <!--This div is made for modal window it will be wisible only if you will click on the link belowe-->
+                <div id="modal-full1" class="uk-modal-full" uk-modal>
+                    <div class="uk-modal-dialog">
+                        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                            <div class="uk-background-cover" style="background-image: url('img/study1.jpg');" uk-height-viewport></div>
+                            <div class="uk-padding-large">
+                                <h1>Headline</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Bottom</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <a href="#modal-full2" uk-toggle>Read More</a>
+                    </div>
+                     <div class="uk-card-media-top">
+                        <img src="img/study2.jpg" alt="">
+                    </div>
+                </div>
+
+                <div id="modal-full2" class="uk-modal-full" uk-modal>
+                    <div class="uk-modal-dialog">
+                        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                            <div class="uk-background-cover" style="background-image: url('img/study2.jpg');" uk-height-viewport></div>
+                            <div class="uk-padding-large">
+                                <h1>Headline</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-media-top">
+                        <img src="img/study3.jpg" alt="">
+                    </div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Top</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <a href="#modal-full3" uk-toggle>Read More</a>
+                    </div>
+                </div>
+
+                <div id="modal-full3" class="uk-modal-full" uk-modal>
+                    <div class="uk-modal-dialog">
+                        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                            <div class="uk-background-cover" style="background-image: url('img/study3.jpg');" uk-height-viewport></div>
+                            <div class="uk-padding-large">
+                                <h1>Headline</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div>
+                <div class="uk-card uk-card-default">
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Media Top</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                        <a href="#modal-full4" uk-toggle>Read More</a>
+                    </div>
+                    <div class="uk-card-media-bottom">
+                        <img src="img/study4.jpg" alt="">
+                    </div>
+                </div>
+
+                 <div id="modal-full4" class="uk-modal-full" uk-modal>
+                    <div class="uk-modal-dialog">
+                        <button class="uk-modal-close-full uk-close-large" type="button" uk-close></button>
+                        <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
+                            <div class="uk-background-cover" style="background-image: url('img/study4.jpg');" uk-height-viewport></div>
+                            <div class="uk-padding-large">
+                                <h1>Headline</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
 	    </div>
 	</div>
 	<!--END Blog block-->
-
-	<footer></footer>
 	
+	<div class="last_block">
+        <div class="container uk-card uk-card-body">
+           <div class="last_block_text uk-position-center uk-text-center">
+                <h3>I'm on a mission to share everything I know to over the world</h3>
+                <button class="buttons uk-button uk-button-primary">Hire me</button>
+           </div>
+        </div>
+	</div>
+	
+	<div class="footer">
+	    <div class="container uk-text-center">
+            <p>Copyright &#169; 2017 | Ihor Kurnytskyi <span class="email">i.kurnytskyi@gmail.com</span> 
+            <a href="https://www.facebook.com/Igor.Kurnitskyy" target="_blank"><span uk-icon="icon: facebook;"></span></a>
+	        <a href="https://www.linkedin.com/in/ihor-kurnytskyi-74137111a/" target="_blank"><span uk-icon="icon: linkedin;"></span></a>
+	        <a href="https://github.com/skatt931/"  target="_blank"><span uk-icon="icon: github;"></span></a></p>
+	    </div>
+	</div>
+
 	<!--JQuery lib-->
 	<script src="libs/jquery/dist/jquery.js"></script>
 	<!--UIKIT lib-->

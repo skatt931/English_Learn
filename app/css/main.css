@@ -23,7 +23,7 @@ body {
   font-family: "Cleanvertising-l", sans-serif, cursive;
   overflow-x: hidden; }
 
-p, h1, h2, h3, h4, h5, h6, button {
+p, h1, h2, h3, h4, h5, h6, button, a, li, html, body, div {
   font-family: "Cleanvertising-l", sans-serif, cursive; }
 
 .hidden {
@@ -101,9 +101,10 @@ p, h1, h2, h3, h4, h5, h6, button {
   position: relative; }
 
 .about_me .circle1 {
+  display: none;
   position: absolute;
-  width: 400px;
-  height: 400px;
+  width: 80%;
+  height: 80%;
   border: 3px solid #2B5077;
   border-radius: 50%;
   left: 39px;
@@ -111,19 +112,19 @@ p, h1, h2, h3, h4, h5, h6, button {
   opacity: 0.4;
   z-index: 1; }
   .about_me .circle1 .circle2 {
-    width: 300px;
-    height: 300px;
+    width: 75%;
+    height: 75%;
     border: 3px solid #2B5077;
     border-radius: 50%;
     margin-left: 50px;
     margin-top: 50px;
     opacity: 0.5; }
     .about_me .circle1 .circle2 .circle3 {
-      width: 200px;
-      height: 200px;
+      width: 70%;
+      height: 70%;
       border: 3px solid #2B5077;
       border-radius: 50%;
-      margin-left: 50px;
+      margin-left: 45px;
       margin-top: 50px;
       opacity: 0.6; }
 
@@ -136,6 +137,39 @@ p, h1, h2, h3, h4, h5, h6, button {
   background-color: white;
   z-index: 2;
   min-height: 300px; }
+  .blog .stripes {
+    position: absolute;
+    bottom: 0; }
+
+/*Last block*/
+.last_block {
+  background-color: #2B5077;
+  min-height: 200px;
+  padding: 50px; }
+  .last_block .last_block_text {
+    max-width: 400px; }
+    .last_block .last_block_text h3 {
+      color: #FCFCFC; }
+    .last_block .last_block_text .buttons {
+      border-radius: 3px;
+      background-color: #72ace5;
+      color: #FCFCFC; }
+      .last_block .last_block_text .buttons:hover {
+        background-color: #86c0f9; }
+
+/*Footer*/
+.footer {
+  background-color: #2B5077;
+  border-top: 1px solid rgba(67, 66, 66, 0.26);
+  height: 30px;
+  color: #FCFCFC;
+  padding: 20px; }
+  .footer .container p {
+    font-family: "Cleanvertising-l", sans-serif, cursive; }
+    .footer .container p .email {
+      margin-left: 40px; }
+    .footer .container p a {
+      margin-left: 5px; }
 
 .navigation {
   margin-right: 200px; }
