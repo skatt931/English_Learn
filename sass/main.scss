@@ -14,11 +14,37 @@ body {
 	font-family: $main-fontl;
 	overflow-x: hidden;
 }
+p,h1,h2,h3,h4,h5,h6,button {
+    font-family: $main-fontl;
+}
 .hidden {
 	display: none;
 }
 .inputs {
     border-radius: 3px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
 }
 .cover {
     position: relative;
@@ -26,7 +52,7 @@ body {
 	height: 607px;
     .color-cover {
         background-color: $lighter-color;
-        height: 100%;
+        height: 561px;
         padding: 23px;
         .main_text {
             .main_text_block {
@@ -57,6 +83,72 @@ body {
         margin-left: 180px;
     }
    
+}
+/*About me block*/
+.about_container {
+    background-color: $text-color;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.21);
+}
+.about_me {
+//    height: 500px;
+    .about_me_text {
+        margin-top: 70px;
+    }
+    .about_me_btn {
+        background-color: $text-color;
+        color: $buttons-color;
+        border: 1px solid $buttons-color;
+        border-radius: 3px;
+        &:hover {
+            background-color: $buttons-color;
+            color: $text-color;
+            border: 1px solid $buttons-color;
+            transition: .5s;
+        }
+    }
+    .man_image_block {
+        position: relative;
+    }
+    .circle1 {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        border: 3px solid $main-color;
+        border-radius: 50%;
+        left: 39px;
+        top: 128px;
+        opacity: 0.4;
+        z-index: 1;
+        .circle2 {
+            width: 300px;
+            height: 300px;
+            border: 3px solid $main-color;
+            border-radius: 50%;
+            margin-left: 50px;
+            margin-top: 50px;
+            opacity: 0.5;
+            .circle3 {
+                width: 200px;
+                height: 200px;
+                border: 3px solid $main-color;
+                border-radius: 50%;
+                margin-left: 50px;
+                margin-top: 50px;
+                opacity: 0.6;
+            }
+        }
+    }
+    .man_image {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.blog {
+    position: relative;
+    background-color: white;
+    z-index: 2;
+    min-height: 300px;
 }
 
  .navigation {
