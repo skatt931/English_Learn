@@ -141,6 +141,11 @@ p, h1, h2, h3, h4, h5, h6, button, a, li, html, body, div {
     position: absolute;
     bottom: 0; }
 
+/*Twitter*/
+.twitter {
+  background-color: #f9f9f9;
+  padding: 40px 0; }
+
 /*Last block*/
 .last_block {
   background-color: #2B5077;
