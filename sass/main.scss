@@ -164,9 +164,14 @@ p,h1,h2,h3,h4,h5,h6,button,a,li,html,body,div {
 
 /*Last block*/
 .last_block {
-    background-color: $main-color;
+    background-image: url(../img/footer-image.jpg);
     min-height: 200px;
     padding: 50px;
+    position: relative;
+    .play {
+        top: 10%;
+        color: $text-color;
+    }
     .last_block_text {
         max-width: 400px;
         h3 {
@@ -187,7 +192,7 @@ p,h1,h2,h3,h4,h5,h6,button,a,li,html,body,div {
 .footer {
     background-color: $main-color;
     border-top: 1px solid rgba(67, 66, 66, 0.26);
-    height: 30px;
+    min-height: 30px;
     color: $text-color;
     padding: 20px;
     .container {

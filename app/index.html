@@ -264,13 +264,23 @@
 	
 	
 	<!--Last block-->
-	<div class="last_block">
-        <div class="container uk-card uk-card-body">
+	<div class="last_block footer-cover uk-background-cover">
+<!--        <div class="container uk-card uk-card-body">-->
+          <div class="play uk-position-top-center">
+                  <span uk-icon="icon: minus; ratio: 2"></span><a href="#modal-center" uk-toggle><span uk-icon="icon: play-circle; ratio: 2"></span></a><span uk-icon="icon: minus; ratio: 2"></span>
+                  
+                  <div id="modal-center" uk-modal="center: true">
+                    <div class="uk-modal-dialog">
+                        <button class="uk-modal-close-outside" type="button" uk-close></button>
+                        <video controls="controls" autoplay><source src="img/Meeting.mp4" type='video/mp4;'></video>
+                    </div>
+                </div>
+            </div>
            <div class="last_block_text uk-position-center uk-text-center">
                 <h3>I'm on a mission to share everything I know to over the world</h3>
                 <button class="buttons uk-button uk-button-primary">Hire me</button>
            </div>
-        </div>
+<!--        </div>-->
 	</div>
 	<!--END last block-->
 	

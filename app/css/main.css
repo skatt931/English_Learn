@@ -148,9 +148,13 @@ p, h1, h2, h3, h4, h5, h6, button, a, li, html, body, div {
 
 /*Last block*/
 .last_block {
-  background-color: #2B5077;
+  background-image: url(../img/footer-image.jpg);
   min-height: 200px;
-  padding: 50px; }
+  padding: 50px;
+  position: relative; }
+  .last_block .play {
+    top: 10%;
+    color: #FCFCFC; }
   .last_block .last_block_text {
     max-width: 400px; }
     .last_block .last_block_text h3 {
@@ -166,7 +170,7 @@ p, h1, h2, h3, h4, h5, h6, button, a, li, html, body, div {
 .footer {
   background-color: #2B5077;
   border-top: 1px solid rgba(67, 66, 66, 0.26);
-  height: 30px;
+  min-height: 30px;
   color: #FCFCFC;
   padding: 20px; }
   .footer .container p {
