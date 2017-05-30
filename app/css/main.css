@@ -76,7 +76,7 @@ p, h1, h2, h3, h4, h5, h6, button, a, li, html, body, div {
   .cover .logo {
     font-family: "Cleanvertising-l", sans-serif, cursive;
     font-size: 28px;
-    margin-left: 180px; }
+    margin-left: 20px; }
 
 /*About me block*/
 .about_container {
@@ -181,4 +181,4 @@ p, h1, h2, h3, h4, h5, h6, button, a, li, html, body, div {
       margin-left: 5px; }
 
 .navigation {
-  margin-right: 200px; }
+  margin-right: 100px; }
