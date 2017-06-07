@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	
-	<title>Document</title>
+	<title>Anna Hadzalo</title>
 	<meta name="description" content="">
 	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,15 +22,9 @@
 	
 	<!--CSS-->
 	<link rel="stylesheet" href="css/main.css">
-	
-	<meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@skatt931" />
-    <meta name="twitter:title" content="Small Island Developing States Photo Submission" />
-    <meta name="twitter:description" content="View the album on Flickr." />
-    <meta name="twitter:image" content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg" />
+
 </head>
 <body>
-	
 	<header>
 		
 	</header>
@@ -38,7 +32,7 @@
     <!--	Header block-->
 	<div class="uk-child-width-expand@s uk-light" uk-grid>
 		<div>
-			<div class="cover uk-background-cover">
+			<div class="cover uk-background-cover" data-parallax="scroll" data-image-src="img/header-image.jpg">
 				<div class="color-cover uk-background-cover">
                     <div class="container uk-navbar-right">
                         <div>
@@ -48,20 +42,31 @@
                         <ul class="navigation uk-navbar-nav uk-position-top-right">
                             <li class="uk-active"><a href="index.html">Home</a></li>
                             <li><a href="blog.html">Blog</a></li>
-                            <li><a href="Enteresting_English.html">Enteresting English</a></li>
+                            <li><a href="Interesting_English.html">Interesting English</a></li>
                             <li><a href="e-books.html">E-books</a></li>
                             <li><a href="contacts.html">Contacts</a></li>
                         </ul>
+
+                        <button class="navigation-button uk-button uk-button-default uk-position-top-right" type="button"><a href="" class="uk-icon-link" uk-icon="icon: menu"></a></button>
+                        <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 1000">
+                            <ul class="uk-nav uk-dropdown-nav">
+                                <li class="uk-active"><a href="index.html">Home</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="Interesting_English.html">Interesting English</a></li>
+                                <li><a href="e-books.html">E-books</a></li>
+                                <li><a href="contacts.html">Contacts</a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="main_text  uk-position-center">
                        <div class="main_text_block">
-                            <h1 class="uk-heading-primary uk-text-center">Online Marketing Dude and International Speaker</h1>
+                            <h1 class="uk-heading-primary uk-text-center">English Teacher And Good Person</h1>
                             <p class="uk-text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati vitae veniam, quo possimus soluta tempora amet. In accusamus iste labore quod, nam aliquid, quam quasi.</p>
-                            
-                            <div class="head_form">
-                                <input class="inputs uk-input uk-form-width-medium" type="text" placeholder="Your email">
-                                <button class="buttons uk-button uk-button-primary">Signup</button>
-                            </div>
+                            <!-- -->
+                            <!--<div class="head_form">-->
+                                <!--<input class="inputs uk-input uk-form-width-medium" type="text" placeholder="Your email">-->
+                                <!--<button class="buttons uk-button uk-button-primary">Signup</button>-->
+                            <!--</div>-->
                        </div>
                     </div>
 				</div>
@@ -229,9 +234,34 @@
                     </div>
                 </div>
             </div>
+        <!--<div class="uk-child-width-expand@s uk-grid-large container uk-card uk-card-default">-->
+            <!--<div class="uk-align-center">-->
+
+            <!--</div>-->
+        <!--</div>-->
            <div class="last_block_text uk-position-center uk-text-center">
-                <h3>I'm on a mission to share everything I know to over the world</h3>
-                <button class="buttons uk-button uk-button-primary">Hire me</button>
+                <!--<button class="buttons uk-button uk-button-primary">Hire me</button>-->
+               <form class="form" action="https://formspree.io/i.kurnytskyi@gmail.com"
+                     method="POST">
+                   <fieldset class="uk-fieldset">
+
+                       <legend class="uk-legend">Contact me</legend>
+
+                       <div class="uk-margin">
+                           <input class="inputs uk-input uk-form-width-large" type="text" placeholder="Your name" name="name">
+                       </div>
+
+                       <div class="uk-margin">
+                           <input class="inputs uk-input uk-form-width-large" type="tel" placeholder="Your phone" name="phone">
+                       </div>
+
+                       <div class="uk-margin">
+                           <input class="buttons uk-button uk-button-primary" type="submit" value="Send">
+                       </div>
+
+                   </fieldset>
+               </form>
+               <h3>I'm on a mission to share everything I know to over the world</h3>
            </div>
 <!--        </div>-->
 	</div>
@@ -254,6 +284,9 @@
 	<!--UIKIT lib-->
 	<script src="libs/uikit-3.0.0/js/uikit.js"></script>
 	<script src="libs/uikit-3.0.0/js/uikit-icons.min.js"></script>
+
+    <!-- parallax.js-->
+    <script src="libs/parallax.js/parallax.js"></script>
 	<!--Main JavaScript-->
 	<script src="js/common.js"></script>
 </body>

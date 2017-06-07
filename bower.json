@@ -24,6 +24,7 @@
     "jquery": "^2.2.4",
     "bootstrap": "^3.3.7",
     "uikit": "^2.27.2",
-    "font-awesome": "fontawesome#^4.7.0"
+    "font-awesome": "fontawesome#^4.7.0",
+    "parallax.js" : "1.4.2"
   }
 }

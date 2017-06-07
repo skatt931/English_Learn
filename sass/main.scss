@@ -31,24 +31,10 @@ p,h1,h2,h3,h4,h5,h6,button,a,li,html,body,div {
 }
 
 
-@media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-@media (min-width: 1200px){
-    .container {
-        width: 1170px;
-    }
-}
+
 .cover {
     position: relative;
-	background-image: url(../img/header-image.jpg);
+	//background-image: url(../img/header-image.jpg);
 	height: 607px;
     .color-cover {
         background-color: $lighter-color;
@@ -165,15 +151,24 @@ p,h1,h2,h3,h4,h5,h6,button,a,li,html,body,div {
 /*Last block*/
 .last_block {
     background-image: url(../img/footer-image.jpg);
-    min-height: 200px;
+    min-height: 300px;
     padding: 50px;
     position: relative;
+    .form {
+        .uk-fieldset {
+            div {
+                width: 250px;
+                padding-left: 50px;
+            }
+        }
+    }
     .play {
         top: 10%;
         color: $text-color;
     }
     .last_block_text {
         max-width: 400px;
+        color: $text-color;
         h3 {
             color: $text-color;
         }
@@ -186,6 +181,12 @@ p,h1,h2,h3,h4,h5,h6,button,a,li,html,body,div {
                     }
                 }
     }
+}
+
+/*IFRAME*/
+.iframe {
+    width: 100%;
+    min-height: 350px;
 }
 
 /*Footer*/
@@ -208,8 +209,15 @@ p,h1,h2,h3,h4,h5,h6,button,a,li,html,body,div {
     }
 }
  .navigation {
-        margin-right: 100px;
+     margin-right: 100px;
+     display: none;
     }
+.navigation-button {
+    display: block;
+    margin: 30px;
+}
+
+
 
 //ALWAYS END
 @import 'media';
