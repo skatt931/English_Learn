@@ -37,7 +37,6 @@ p,h1,h2,h3,h4,h5,h6,button,a,li,html,body,div {
 	//background-image: url(../img/header-image.jpg);
 	height: 607px;
     .color-cover {
-        background-color: $lighter-color;
         height: 561px;
         padding: 23px;
         .main_text {
@@ -67,6 +66,9 @@ p,h1,h2,h3,h4,h5,h6,button,a,li,html,body,div {
         font-family: $main-fontl;
         font-size: 28px;
         margin-left: 20px;
+        a:hover {
+            text-decoration: none!important;
+        }
     }
    
 }
@@ -154,14 +156,6 @@ p,h1,h2,h3,h4,h5,h6,button,a,li,html,body,div {
     min-height: 300px;
     padding: 50px;
     position: relative;
-    .form {
-        .uk-fieldset {
-            div {
-                width: 204px;
-                padding-left: 75px;
-            }
-        }
-    }
     .play {
         top: 10%;
         color: $text-color;
@@ -216,8 +210,14 @@ p,h1,h2,h3,h4,h5,h6,button,a,li,html,body,div {
     display: block;
     margin: 30px;
 }
+.small-screen-nav {
+    font-size: 1.1rem;
+}
 
-
+/*BLOG PAGE*/
+.blog-page, .contacts-page, .video-page {
+    padding: 50px 0;
+}
 
 //ALWAYS END
 @import 'media';

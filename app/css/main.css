@@ -42,7 +42,6 @@ p, h1, h2, h3, h4, h5, h6, button, a, li, html, body, div {
   position: relative;
   height: 607px; }
   .cover .color-cover {
-    background-color: rgba(94, 142, 186, 0.67);
     height: 561px;
     padding: 23px; }
     .cover .color-cover .main_text .main_text_block {
@@ -64,6 +63,8 @@ p, h1, h2, h3, h4, h5, h6, button, a, li, html, body, div {
     font-family: "Cleanvertising-l", sans-serif, cursive;
     font-size: 28px;
     margin-left: 20px; }
+    .cover .logo a:hover {
+      text-decoration: none !important; }
 
 /*About me block*/
 .about_container {
@@ -139,9 +140,6 @@ p, h1, h2, h3, h4, h5, h6, button, a, li, html, body, div {
   min-height: 300px;
   padding: 50px;
   position: relative; }
-  .last_block .form .uk-fieldset div {
-    width: 204px;
-    padding-left: 75px; }
   .last_block .play {
     top: 10%;
     color: #FCFCFC; }
@@ -184,12 +182,16 @@ p, h1, h2, h3, h4, h5, h6, button, a, li, html, body, div {
   display: block;
   margin: 30px; }
 
+.small-screen-nav {
+  font-size: 1.1rem; }
+
+/*BLOG PAGE*/
+.blog-page, .contacts-page, .video-page {
+  padding: 50px 0; }
+
 @media (min-width: 768px) {
   .container {
-    width: 730px; }
-  .last_block .form .uk-fieldset div {
-    width: 406px;
-    padding-left: 0px; } }
+    width: 730px; } }
 
 @media (min-width: 992px) {
   .navigation {
